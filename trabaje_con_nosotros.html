@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./template/bootstrap.css">
+    <link rel="stylesheet" href="./template/font-awesome.min.css">
+    <link rel="stylesheet" href="./template/prism-okaidia.css">
+    <link rel="stylesheet" href="./template/custom.min.css">
+    <link rel="shortcut icon" href="img\icon.ico" alt="Ícono pestaña magieventos">
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script type="text/javascript" async="" src="./template/analytics.js.descarga"></script>
+    <script async="" src="./template/js"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-23019901-1');
+    </script>
+    <script id="_carbonads_projs" type="text/javascript" src="./template/CKYIE23N.json"></script>
+</head>
+
+<header>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" color="" href="#">
+                <img width="40" height="30" src="img\black_icon.ico" alt="Ícono pestaña magieventos">
+                Magieventos</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
+                aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Inicio
+                            <span class="visually-hidden">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false">Acerca de</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="sobre_nosotros.html">Sobre Nosotros</a>
+                            <a class="dropdown-item" href="historia.html">Historia de Fundación</a>
+                            <a class="dropdown-item" href="mision.html">Misión</a>
+                            <a class="dropdown-item" href="vision.html">Visión</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="equipo.html">Equipo de Trabajo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="trabaje_con_nosotros.html">Trabaje con Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="opiniones.html">Opiniones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="creditos.html">Créditos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <script src="" async defer></script>
+</header>
+
+<body style="background-color: #d0d43c;">
+    <h1 style='text-align:center'>Trabaje con nosotros</h1>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-1">
+
+            </div>
+            <div class="col-md-3">
+                <img class="d-block w-100" alt="Oferta de trabajo 1" src="img\of_1.png" />
+            </div>
+            <div class="col-md-3">
+                <img class="d-block w-100" alt="Oferta de trabajo 2" src="img\of_2.png" />
+            </div>
+            <div class="col-md-3">
+                <img class="d-block w-100" alt="Oferta de trabajo 3" src="img\of_3.png" />
+            </div>
+            <div class="col-md-2">
+                <img class="d-block w-100" alt="Pareja con globos" src="img\13.png" />
+            </div>
+        </div>
+        <div class="row mb-12">
+            <div class="page-header">
+                <h1 id="navs">Por aquí puedes encontrar más trabajos</h1>
+            </div>
+            <div class="col-md-8">
+                <div id="empleos" style="display: block">
+
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Magiempleos</h5>
+                            <!--Aquí va el formulario-->
+                            <form role="form">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">
+                                        Empleo a Ingresar:
+                                    </label>
+                                    <input type="text" class="form-control" id="empleo" />
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">
+                                        Salario:
+                                    </label>
+                                    <input type="text" class="form-control" id="salario" />
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">
+                                        Cantidad de Personas Requeridas:
+                                    </label>
+                                    <input type="text" class="form-control" id="cantidad" />
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">
+                                        Profesional Requerido:
+                                    </label>
+                                    <input type="text" class="form-control" id="profesional" />
+                                </div>
+                                <div class="form-group">
+                                    <br>
+                                    <input type="submit" value="Registrar" class="btn btn-primary" runat="server"
+                                        onclick="registrarEmpleo()" id="submitButton" />
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script src="js\empleos.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+        </div>
+    </div>
+    </div>
+    </div>
+</body>
+
+<script src="./template/jquery.min.js.descarga"></script>
+<script src="./template/bootstrap.bundle.min.js.descarga"></script>
+<script src="./template/prism.js.descarga" data-manual=""></script>
+<script src="./template/custom.js.descarga"></script>
+<script src="./template/jquery.min.js"></script>
+<script src="./template/bootstrap.min.js"></script>
+<script src="./template/popper.min.js"></script>
+<script src="./template/scripts.js"></script>
+
+</html>
